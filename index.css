@@ -1,0 +1,81 @@
+#adding_game{
+    background-color: green;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20px;
+}
+#deleting_game{
+    background-color:tomato;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20px;
+}
+#buying_game{
+    background-color:blue;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20px;
+}
+body{
+    background-color: rgb(24,24,24);
+}
+#name{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border: 3px solid blue;
+    width: 140px;
+    background-color: blue;
+    border-radius: 10px; 
+    padding: 10px;
+}
+#developers{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: medium;
+    color: aliceblue;
+}
+#description{
+    font-weight: lighter;
+    font-family: bodoni;
+    color: black;
+    font-size: small;
+    color: aliceblue;
+}
+#price{
+font-style: oblique;
+color: white
+}
+#Released_date{
+    font-weight: lighter;
+    font-style: italic;
+    color: whitesmoke
+}
+#card{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#img{
+    width: 70%;
+    border-radius: 30px;
+    height: fit-content;
+}
+#input{
+  border-radius: 50px;
+  margin-top: 10px; 
+  text-align: center;
+}
+#ok{
+    border-radius: 5px;
+    background-color: blue;
+}
+p{
+    text-align: center;
+    color: orangered;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
