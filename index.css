@@ -1,26 +1,12 @@
-#adding_game{
-    background-color: green;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    margin-right: 20px;
-}
-#deleting_game{
-    background-color:tomato;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    margin-right: 20px;
-}
-#buying_game{
-    background-color:blue;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    margin-right: 20px;
-}
+
 body{
     background-color: rgb(24,24,24);
+}
+button1{
+    background-color: tomato;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
 }
 #name{
     font-weight: bold;
@@ -56,7 +42,7 @@ color: white
 }
 #card{
     display: flex;
-    gap: 20px;
+    gap: 70px;
     flex-wrap: wrap;
 }
 #img{
@@ -78,4 +64,11 @@ p{
     color: orangered;
     margin-bottom: 10px;
     text-decoration: underline;
+}
+button{
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 15px;
+    cursor: pointer;
 }
